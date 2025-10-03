@@ -5,12 +5,8 @@
     "scheme": "SafeFamily",
     "version": "1.0.0",
     "extra": {
-      "env": "production",
-      "router": {},
-      "eas": {
-        "projectId": "21d023ef-4aa3-4025-a292-fe0f1aeb6366"
-      }
-    },
+      "env": "production"
+    },  
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -29,8 +25,7 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false,
-      "package": "com.prayer072.safefamily"
+      "predictiveBackGestureEnabled": false
     },
     "web": {
       "favicon": "./assets/favicon.png"
