@@ -2,11 +2,15 @@
   "expo": {
     "name": "safe-family",
     "slug": "safe-family",
-    "scheme": "SafeFamily",
+    "scheme": "safefamily",
     "version": "1.0.0",
     "extra": {
-      "env": "production"
-    },  
+      "env": "production",
+      "router": {},
+      "eas": {
+        "projectId": "21d023ef-4aa3-4025-a292-fe0f1aeb6366"
+      }
+    },
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -25,7 +29,8 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.prayer072.safefamily"
     },
     "web": {
       "favicon": "./assets/favicon.png"
